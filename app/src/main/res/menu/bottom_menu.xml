@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="مسكن"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/quran"
+        android:title="القرآن"
+        android:icon="@drawable/quran"/>
+
+    <item
+        android:id="@+id/alarm"
+        android:title="أشرطة فيديو"
+        android:icon="@drawable/play"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="اتصل بنا"
+        android:icon="@drawable/mydonate"/>
+
+</menu>

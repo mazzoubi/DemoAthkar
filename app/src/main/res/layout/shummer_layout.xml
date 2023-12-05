@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@color/white"
+        android:focusable="true"
+        >
+
+        <LinearLayout
+            android:id="@+id/videoItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?attr/selectableItemBackground"
+            android:orientation="horizontal"
+            >
+
+
+            <ImageView
+                android:id="@+id/itemImage"
+                android:layout_width="140dp"
+                android:layout_height="100dp"
+                android:background="#989690"
+                android:scaleType="centerCrop"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/itemTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#989690"
+                    android:text="                                                        "
+                    android:layout_margin="10dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="17sp"
+                    android:maxLines="3"
+                    android:textColor="#4B7437"
+                    android:ellipsize="end"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#989690"
+                    android:text="                                                     "
+
+                    android:layout_marginStart="10dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10sp"
+                    android:maxLines="3"
+                    android:textColor="#4B7437"
+                    android:ellipsize="end"
+                    />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
