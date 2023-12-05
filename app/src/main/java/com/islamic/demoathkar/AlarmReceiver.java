@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 public class AlarmReceiver extends BroadcastReceiver {
 
+
    public static MediaPlayer MP;
     @Override
     public void onReceive(Context context, Intent intent) {
